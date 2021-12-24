@@ -9,12 +9,17 @@ public class SortUtil {
             System.out.println(array[i]);
         }
     }
+
     public static void swap(int[] array, int i, int j) {
         if(i == j)
             return;
         int temp = array[i];
         array[i] = array[j];
         array[j] = temp;
+    }
+
+    public static void printSeparators() {
+        System.out.println("*************************************");
     }
 
 }
