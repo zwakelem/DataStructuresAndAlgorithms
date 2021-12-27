@@ -22,4 +22,12 @@ public class SortUtil {
         System.out.println("*************************************");
     }
 
+    public static void printInt(int i) {
+        System.out.println(i);
+    }
+
+    public static void printEmptyLine() {
+        System.out.println();
+    }
+
 }
