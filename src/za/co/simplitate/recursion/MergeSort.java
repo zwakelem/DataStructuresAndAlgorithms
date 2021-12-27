@@ -13,7 +13,7 @@ public class MergeSort {
     }
 
     public static void mergeSort(int[] input, int start, int end) {
-        if(end - start < 2)
+        if(end - start < 2) // this is a 1 element array
             return;
 
         int mid = (start + end) / 2;
