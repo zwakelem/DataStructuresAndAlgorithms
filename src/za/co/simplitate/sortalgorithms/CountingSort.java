@@ -6,6 +6,14 @@ public class CountingSort {
 
     public static void main(String[] args) {
 
+        /*
+            * only useful in specific circumstances
+            * use when the range of values is not too large
+            * also the dataset should not be too large
+            * the range should not be significantly greater than the items you want to sort
+            * in our example, the range is 1 to 10, and we want to sort 10 items
+         */
+
         int[] intArray = COUNT_SORT_ARRAY;
         countingSort(intArray, 1, 10);
         printArray(intArray);
