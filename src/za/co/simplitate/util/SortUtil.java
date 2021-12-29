@@ -4,6 +4,8 @@ public class SortUtil {
 
     public static final int[] INT_ARRAY = {20, 35, -15, 7, 55, 1, -22};
 
+    public static final int[] COUNT_SORT_ARRAY = {2, 5, 9, 8, 2, 8, 7, 10, 4, 3};
+
     public static void printArray(int[] array) {
         for(int i = 0; i < array.length; i++) {
             System.out.println(array[i]);
