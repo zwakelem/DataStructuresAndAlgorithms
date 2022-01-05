@@ -6,6 +6,8 @@ public class SortUtil {
 
     public static final int[] COUNT_SORT_ARRAY = {2, 5, 9, 8, 2, 8, 7, 10, 4, 3};
 
+    public static final int[] RADIX_SORT_ARRAY = {4725, 4586, 1330, 8792, 1594, 5729};
+
     public static void printArray(int[] array) {
         for(int i = 0; i < array.length; i++) {
             System.out.println(array[i]);
