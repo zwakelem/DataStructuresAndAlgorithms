@@ -8,7 +8,15 @@ public class SortUtil {
 
     public static final int[] RADIX_SORT_ARRAY = {4725, 4586, 1330, 8792, 1594, 5729};
 
+    public static final String[] STRINGS_ARRAY = {"bcdef", "dbaqc", "abcde", "omadd", "bbbbb"};
+
     public static void printArray(int[] array) {
+        for(int i = 0; i < array.length; i++) {
+            System.out.println(array[i]);
+        }
+    }
+
+    public static void printArray(String[] array) {
         for(int i = 0; i < array.length; i++) {
             System.out.println(array[i]);
         }
