@@ -1,6 +1,6 @@
 package za.co.simplitate.lists;
 
-public class EmployeeLinkedList {
+public class EmployeeSinglyLinkedList {
 
     private EmployeeNode head;
     private int size;

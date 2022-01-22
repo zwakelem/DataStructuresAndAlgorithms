@@ -9,7 +9,7 @@ public class SinglyLinkedList {
         Employee marySmith = new Employee("Mary", "Smith", 22);
         Employee mikeWilson = new Employee("Mike", "Wilson", 3245);
 
-        EmployeeLinkedList linkedList = new EmployeeLinkedList();
+        EmployeeSinglyLinkedList linkedList = new EmployeeSinglyLinkedList();
         linkedList.addToFront(janeJones);
         linkedList.addToFront(johnDoe);
         linkedList.addToFront(marySmith);
