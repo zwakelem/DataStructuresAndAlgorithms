@@ -1,5 +1,7 @@
 package za.co.simplitate.lists;
 
+import za.co.simplitate.util.Employee;
+
 public class EmployeeNode {
 
     private Employee employee;

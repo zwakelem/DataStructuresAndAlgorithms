@@ -1,5 +1,7 @@
 package za.co.simplitate.lists;
 
+import za.co.simplitate.util.Employee;
+
 public class LinkedList {
 
     public static void main(String[] args) {

@@ -1,5 +1,7 @@
 package za.co.simplitate.lists;
 
+import za.co.simplitate.util.Employee;
+
 import java.util.ArrayList;
 import java.util.List;
 

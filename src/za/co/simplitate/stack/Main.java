@@ -1,6 +1,6 @@
 package za.co.simplitate.stack;
 
-import za.co.simplitate.lists.Employee;
+import za.co.simplitate.util.Employee;
 
 public class Main {
 

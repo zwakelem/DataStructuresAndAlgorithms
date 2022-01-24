@@ -1,4 +1,4 @@
-package za.co.simplitate.lists;
+package za.co.simplitate.util;
 
 import java.util.Objects;
 
