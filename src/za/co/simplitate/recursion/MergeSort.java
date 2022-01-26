@@ -9,7 +9,6 @@ public class MergeSort {
         int[] intArray = INT_ARRAY; // {20, 35, -15, 7, 55, 1, -22}
         mergeSort(intArray, 0, intArray.length);
         printArray(intArray);
-
     }
 
     public static void mergeSort(int[] input, int start, int end) {
