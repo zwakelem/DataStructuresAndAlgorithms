@@ -19,10 +19,13 @@ public class Main {
         queue.add(mikeWilson);
         queue.add(billEnd);
 
-//        queue.printQueue();
-        
-        queue.remove();
-        queue.remove();
         queue.printQueue();
+
+//        queue.remove();
+//        queue.remove();
+//        queue.remove();
+//        queue.remove();
+//        queue.remove();
+//        queue.printQueue();
     }
 }

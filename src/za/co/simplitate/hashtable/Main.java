@@ -21,6 +21,14 @@ public class Main {
 
         sht.printHashtable();
 
-        System.out.println(sht.get("Wilson"));
+        System.out.println("Retrieve key Wilson: " + sht.get("Wilson"));
+        System.out.println("Retrieve key Smith: " + sht.get("Smith"));
+
+        System.out.println("***********************");
+
+        sht.remove("Wilson");
+        sht.remove("Smith");
+        sht.printHashtable();
+
     }
 }
