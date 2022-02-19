@@ -3,7 +3,7 @@ package za.co.simplitate.binarysearchtree;
 public class Main {
 
     public static void main(String[] args) {
-        
+
         Tree intTree = new Tree();
         intTree.insert(25);
         intTree.insert(20);
